@@ -1,0 +1,10 @@
+Script started on Sat 08 Feb 2020 03:06:44 PM EST
+]0;rwalt267@csitrd:~/csc252/hw2[?1034h[rwalt267@csitrd hw2]$ ln cars cars.hard
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ ls -il cars cars.hard
+9964417 -rw-r--r-- 2 rwalt267 csit_students 445 Feb  6 12:41 cars
+9964417 -rw-r--r-- 2 rwalt267 csit_students 445 Feb  6 12:41 cars.hard
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ cat hardlink.txt [K
+You can tell cars and cars.hard are two names of the same file since the inode number, when you type -i after the ls command and shown at the beginning of the line, are the same for the two different files and the link numbers are both two for each file, meaning that each file links to another. The size of the files are exactlt the same too and they were created at exactly the same time.
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ exit
+
+Script done on Sat 08 Feb 2020 03:07:23 PM EST

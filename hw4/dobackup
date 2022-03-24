@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Name:            Reiley Walther
+# Creation Date:   February 23, 2020
+# Due Date:        February 25, 2020
+# Course:          CSC 252 010
+# Professor Name:  Dr. Carelli
+# Assignment:      #4
+# Filename:        dobackup
+# Purpose:         Takes arguments and copies files to a backup directory if they meet
+#                  the requirements of the arguments passed in and if they exist.
+#                  A file is also created with a timestamp for the new backup directory.
+
+# checks if all 3 arguments are present and displays a message if false and exits
+if [ "$3" == "" ]
+then
+  echo "Create copies in a backup directory for files with a given suffix that are 
+located in a given source directory. Only files whose names end with a specified 
+suffix will be copied. In addition, a datestamp suffix containing the current date
+will be added to the provided backup directory base name.
+
+syntax: dobackup sourcePath backupBaseName fileSuffix
+ "
+exit
+fi
+
+# checks if the backup directory exists. If it does, it says so. If not, it creates it.
+if test -d ./$2.`date +%F`
+then
+  echo 'file: ./'$2.`date +%F`' exists' > /dev/null
+else
+  mkdir $2.`date +%F`
+fi
+
+# for loop for checking if a file in specified directory is what we are looking for
+# tests if the file is a directory
+# echoes backing up and the path to the file
+# copies the file from its path to the created directory with the date stamp
+
+  for i in `ls $1/*.$3`
+  do
+    if test -f $i
+    then
+      echo 'backing up' $i
+      cp $i $2.`date +%F`
+    fi
+  done

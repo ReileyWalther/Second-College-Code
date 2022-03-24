@@ -1,0 +1,19 @@
+Script started on Tue 31 Mar 2020 04:52:07 PM EDT
+]0;rwalt267@csitrd:~/csc252/hw5[?1034h[rwalt267@csitrd hw5]$ history 5
+  997  jobs
+  998  ps ux
+  999  ps au | grep -e '-bash'
+ 1000  ps au | grep -e '-bash' -c
+ 1001  history 5
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ g[Kfree
+             total       used       free     shared    buffers     cached
+Mem:      32742632   13658920   19083712       1560     469828   10311864
+-/+ buffers/cache:    2877228   29865404
+Swap:     16441340     299824   16141516
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ uptime
+ 16:52:23 up 99 days,  6:44, 33 users,  load average: 1.04, 1.18, 1.22
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ pstree rwalt267
+sshd───bash───script───script───bash───pstree
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ exit
+
+Script done on Tue 31 Mar 2020 04:52:34 PM EDT

@@ -1,0 +1,10 @@
+Script started on Wed 29 Jan 2020 09:40:46 PM EST
+]0;rwalt267@csitrd:~/csc252/hw1[?1034h[rwalt267@csitrd hw1]$ hostname
+csitrd
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ uname -op
+x86_64 GNU/Linux
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ hostname -i
+127.0.0.1
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ exit
+
+Script done on Wed 29 Jan 2020 09:41:18 PM EST

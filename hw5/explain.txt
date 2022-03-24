@@ -1,0 +1,1 @@
+Both jobs are suspended due to the 'T' under the STAT column when we display ps ux which stands for a 'stopped' process.

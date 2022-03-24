@@ -1,0 +1,18 @@
+Script started on Mon 17 Feb 2020 10:00:17 PM EST
+]0;rwalt267@csitrd:~/csc252/hw3[?1034h[rwalt267@csitrd hw3]$ ls /dev | grep loop
+loop0
+loop1
+loop2
+loop3
+loop4
+loop5
+loop6
+loop7
+]0;rwalt267@csitrd:~/csc252/hw3[rwalt267@csitrd hw3]$ ls /dev | grep loop/*0; ls /dev/*1; ls /dev/*2; ls /dev/*3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat devs[K[11@ls /dev/lp* >>[C[C[C[C[C[11Pcat[C[C[C[C[C[11@ls /dev/lp* >>[C[C[C[C[C[11Pcat[C[C[C[C[Cls /dev/*0; ls /dev/*1; ls /dev/*2; ls /dev/*3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | grep loop[K[K /bin/true /bin/false /bin/maybe
+ls: cannot access /bin/maybe: No such file or directory
+[0m[01;32m/bin/false[0m  [01;32m/bin/true[0m
+[m]0;rwalt267@csitrd:~/csc252/hw3[rwalt267@csitrd hw3]$ ls /bin/true /bin/false /bin/maybe 2>/dev/null
+[0m[01;32m/bin/false[0m  [01;32m/bin/true[0m
+[m]0;rwalt267@csitrd:~/csc252/hw3[rwalt267@csitrd hw3]$ exit
+
+Script done on Mon 17 Feb 2020 10:01:52 PM EST

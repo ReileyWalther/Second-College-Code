@@ -1,0 +1,39 @@
+Script started on Tue 31 Mar 2020 04:51:26 PM EDT
+]0;rwalt267@csitrd:~/csc252/hw5[?1034h[rwalt267@csitrd hw5]$ ps au | grep -e '-bash'
+rwalt267   982  0.0  0.0 120944  2040 pts/23   Ss   16:47   0:00 -bash
+jperl261  1314  0.0  0.0 120912  2052 pts/33   Ss   16:48   0:00 -bash
+rwalt267  2041  0.0  0.0 103324   836 pts/27   S+   16:51   0:00 grep -e -bash
+spiegel   3985  0.0  0.0 120944  2120 pts/2    Ss+  Feb27   0:00 -bash
+spiegel   7052  0.0  0.0 120944  2144 pts/36   Ss+  Mar22   0:00 -bash
+jbrin249  7209  0.0  0.0 120912  1908 pts/22   Ss   14:58   0:00 -bash
+spiegel   7318  0.0  0.0 120940  2048 pts/49   Ss+  13:37   0:00 -bash
+ipopa836  7924  0.0  0.0 120944  2076 pts/28   Ss+  15:01   0:00 -bash
+jmcna260  8309  0.0  0.0 120944  2120 pts/1    Ss   Mar30   0:00 -bash
+sflyn232  9239  0.0  0.0 120944  2068 pts/43   Ss+  15:06   0:00 -bash
+spiegel  11235  0.0  0.0 120944  2088 pts/25   Ss+  Mar03   0:00 -bash
+dston250 11391  0.0  0.0 120944  2064 pts/30   Ss   12:01   0:00 -bash
+tbadl886 12643  0.0  0.0 120944  2068 pts/40   Ss+  12:59   0:00 -bash
+thall326 15048  0.0  0.0 120944  2060 pts/38   Ss+  15:31   0:00 -bash
+jmcna260 15324  0.0  0.0 120944  2100 pts/21   Ss   15:32   0:00 -bash
+spiegel  15583  0.0  0.0 120944  2120 pts/0    Ss+  Mar20   0:00 -bash
+relwa136 16271  0.0  0.0 120944  2048 pts/55   Ss+  15:35   0:00 -bash
+bback462 17076  0.0  0.0 120944  2064 pts/41   Ss+  15:38   0:00 -bash
+jnamb371 18964  0.0  0.0 120944  2044 pts/14   Ss+  15:46   0:00 -bash
+jperl261 20743  0.0  0.0 120912  2056 pts/24   Ss+  15:53   0:00 -bash
+carelli  22757  0.0  0.0 121076  2248 pts/6    Ss+  13:14   0:00 -bash
+mshah647 22847  0.0  0.0 120944  2060 pts/20   Ss   14:08   0:00 -bash
+spiegel  25071  0.0  0.0 120940  2060 pts/8    Ss   Mar22   0:00 -bash
+40019    27300  0.0  0.0 120944  2028 pts/12   Ss   Mar18   0:00 -bash
+idean274 28340  0.0  0.0 120944  2052 pts/17   Ss+  16:25   0:00 -bash
+jfern683 28723  0.0  0.0 120944  2112 pts/19   Ss+  Mar04   0:00 -bash
+rbouc927 28830  0.0  0.0 120944  2044 pts/16   Ss+  14:29   0:00 -bash
+nharr646 28999  0.0  0.0 120944  2072 pts/29   Ss   16:29   0:00 -bash
+carelli  29679  0.0  0.0 121076  2244 pts/5    Ss+  Mar30   0:00 -bash
+ipopa836 31248  0.0  0.0 120944  2064 pts/13   Ss+  16:39   0:00 -bash
+sbadl104 31254  0.0  0.0 120944  2052 pts/65   Ss+  Feb25   0:00 -bash
+faren016 32494  0.0  0.0 120944  2060 pts/39   Ss+  16:44   0:00 -bash
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ ps au | grep -e '-bash' -c
+32
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ exit
+
+Script done on Tue 31 Mar 2020 04:52:01 PM EDT

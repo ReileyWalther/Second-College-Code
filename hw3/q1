@@ -1,0 +1,16 @@
+Script started on Tue 18 Feb 2020 04:50:51 PM EST
+]0;rwalt267@csitrd:~/csc252/hw3[?1034h[rwalt267@csitrd hw3]$ cd ~
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ pwd
+/home/STUDENTS/rwalt267
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ hi252
+bash: hi252: command not found
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ mkdir bin
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ cp /ep[Kxport/home/public/carelli/csc252/Examples/hi252 ./bin
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ echo $PATH
+/opt/anaconda3/bin:/usr/lib64/qt-3.3/bin:/usr/local/openssl/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/STUDENTS/rwalt267/.composer/vendor/bin:/usr/lib/oracle/12.1/client64/bin:/usr/lib/oracle/12.1/client64/bin
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ p[KPATH=$PATH:~/bin
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ hi252
+Hello World!!!
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ exit
+
+Script done on Tue 18 Feb 2020 04:52:07 PM EST

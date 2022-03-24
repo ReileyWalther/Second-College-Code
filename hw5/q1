@@ -1,0 +1,24 @@
+Script started on Tue 31 Mar 2020 04:47:55 PM EDT
+]0;rwalt267@csitrd:~/csc252/hw5[?1034h[rwalt267@csitrd hw5]$ ps ux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rwalt267   981  0.0  0.0 135316  1976 ?        S    16:47   0:00 sshd: rwalt267@
+rwalt267   982  0.1  0.0 120944  2036 pts/23   Ss   16:47   0:00 -bash
+rwalt267  1012  0.0  0.0 107136   832 pts/23   S+   16:47   0:00 script q1
+rwalt267  1014  0.0  0.0 108160   408 pts/23   S+   16:47   0:00 script q1
+rwalt267  1015  0.3  0.0 120948  2040 pts/27   Ss   16:47   0:00 bash -i
+rwalt267  1033  0.0  0.0 122708  1292 pts/27   R+   16:47   0:00 ps ux
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ jobs
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ sleep 1500 &
+[1] 1039
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ sleep 1200
+^Z
+[2]+  Stopped                 sleep 1200
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ fg 1
+sleep 1500
+^Z
+[1]+  Stopped                 sleep 1500
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ exit
+There are stopped jobs.
+]0;rwalt267@csitrd:~/csc252/hw5[rwalt267@csitrd hw5]$ exit
+
+Script done on Tue 31 Mar 2020 04:48:26 PM EDT

@@ -1,0 +1,14 @@
+Script started on Wed 29 Jan 2020 09:08:30 PM EST
+]0;rwalt267@csitrd:~/csc252/hw1[?1034h[rwalt267@csitrd hw1]$ whoami
+rwalt267
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ id -u
+47296
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ id -gn
+csit_students
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ id -g
+200
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ groups
+csit_students
+]0;rwalt267@csitrd:~/csc252/hw1[rwalt267@csitrd hw1]$ exit
+
+Script done on Wed 29 Jan 2020 09:09:06 PM EST

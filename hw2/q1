@@ -1,0 +1,47 @@
+Script started on Sat 08 Feb 2020 02:41:29 PM EST
+]0;rwalt267@csitrd:~/csc252/hw2[?1034h[rwalt267@csitrd hw2]$ sort cars -k 2
+bmw     325i    1985    115     450
+honda   accord  2001    30      6000
+ford    explor  2003    25      9500
+plym    fury    1970    73      2500
+chevy   impala  1985    85      1550
+chevy   malibu  1999    60      3000
+chevy   malibu  2000    50      3500
+ford    mustang 1965    45      10000
+toyota  rav4    2002    180     750
+volvo   s80     1998    102     9850
+ford    taurus  2004    10      17000
+ford    thundbd 2003    15      10500
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ sort cars -k 5 -gr
+ford    taurus  2004    10      17000
+ford    thundbd 2003    15      10500
+ford    mustang 1965    45      10000
+volvo   s80     1998    102     9850
+ford    explor  2003    25      9500
+honda   accord  2001    30      6000
+chevy   malibu  2000    50      3500
+chevy   malibu  1999    60      3000
+plym    fury    1970    73      2500
+chevy   impala  1985    85      1550
+toyota  rav4    2002    180     750
+bmw     325i    1985    115     450
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ grep ford cars
+ford    mustang 1965    45      10000
+ford    thundbd 2003    15      10500
+ford    taurus  2004    10      17000
+ford    explor  2003    25      9500
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ grep -v chevy cars
+plym    fury    1970    73      2500
+ford    mustang 1965    45      10000
+volvo   s80     1998    102     9850
+ford    thundbd 2003    15      10500
+bmw     325i    1985    115     450
+honda   accord  2001    30      6000
+ford    taurus  2004    10      17000
+toyota  rav4    2002    180     750
+ford    explor  2003    25      9500
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ wc -l cars
+12 cars
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ exit
+
+Script done on Sat 08 Feb 2020 02:42:58 PM EST

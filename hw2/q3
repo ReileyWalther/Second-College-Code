@@ -1,0 +1,12 @@
+Script started on Sat 08 Feb 2020 03:09:48 PM EST
+]0;rwalt267@csitrd:~/csc252/hw2[?1034h[rwalt267@csitrd hw2]$ rm cars.hard
+rm: remove regular file `cars.hard'? y
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ ln -s cars cars.soft
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ ls -il cars cars.soft
+9964417 -rw-r--r-- 1 rwalt267 csit_students 445 Feb  6 12:41 cars
+9964748 lrwxrwxrwx 1 rwalt267 csit_students   4 Feb  8 15:10 [0m[01;36mcars.soft[0m -> cars
+[m]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ cat softlink.txt [K
+Cars and cars.soft are two different files and we can tell this by noting that the inode numbers for both of these files are different, the links for each file is only one, the creation dates differ since they were created at different times and the size of each file are different and this indicates that the original contains the most information and the soft link contains enough information to be able to 'point' to the original.
+]0;rwalt267@csitrd:~/csc252/hw2[rwalt267@csitrd hw2]$ exit
+
+Script done on Sat 08 Feb 2020 03:10:39 PM EST

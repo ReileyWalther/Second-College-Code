@@ -1,0 +1,13 @@
+Script started on Mon 17 Feb 2020 10:18:24 PM EST
+]0;rwalt267@csitrd:~/csc252/hw3[?1034h[rwalt267@csitrd hw3]$ echo $PATH; echo $SHELL; echo $USER; echo $HOME
+/opt/anaconda3/bin:/usr/lib64/qt-3.3/bin:/usr/local/openssl/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/STUDENTS/rwalt267/.composer/vendor/bin:/usr/lib/oracle/12.1/client64/bin:/usr/lib/oracle/12.1/client64/bin
+/bin/bash
+rwalt267
+/home/STUDENTS/rwalt267
+]0;rwalt267@csitrd:~/csc252/hw3[rwalt267@csitrd hw3]$ PS1=`date +%A`":"" "
+]0;rwalt267@csitrd:~/csc252/hw3Monday: cd ~
+]0;rwalt267@csitrd:~Monday: pwd
+/home/STUDENTS/rwalt267
+]0;rwalt267@csitrd:~Monday: exit
+
+Script done on Mon 17 Feb 2020 10:19:52 PM EST

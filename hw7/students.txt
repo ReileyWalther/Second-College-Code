@@ -1,0 +1,6 @@
+CS jlenn123 Lennon, John 
+IT pmcar456 McCartney, Paul 
+CS ghart789 Harrison, George 
+IT rstar246 Starky, Richard "Ringo" 
+CS bspri826 Springsteen, Bruce "Boss" 
+IT mjagg924 Jagger, Mick

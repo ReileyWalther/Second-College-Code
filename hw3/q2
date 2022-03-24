@@ -1,0 +1,35 @@
+Script started on Mon 17 Feb 2020 09:00:49 PM EST
+]0;rwalt267@csitrd:~/csc252/hw3[?1034h[rwalt267@csitrd hw3]$ cd ~
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ pwd
+/home/STUDENTS/rwalt267
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ ls /dev/sda*
+[0m[40;33;01m/dev/sda[0m  [40;33;01m/dev/sda1[0m  [40;33;01m/dev/sda2[0m
+[m]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ ls /devs[K/sda* > devs
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ cat devs
+/dev/sda
+/dev/sda1
+/dev/sda2
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ ls /devs[K/lp* >> devs
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ cat devs
+/dev/sda
+/dev/sda1
+/dev/sda2
+/dev/lp0
+/dev/lp1
+/dev/lp2
+/dev/lp3
+]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ ls /dev/*0; ls /dev/*1; ls /dev/*2; ls /dev/*3
+[0m[40;33;01m/dev/dm-0[0m     [40;33;01m/dev/hvc0[0m   [40;33;01m/dev/ptp0[0m   [40;33;01m/dev/rtc0[0m  [40;33;01m/dev/tty10[0m  [40;33;01m/dev/tty40[0m  [40;33;01m/dev/ttyS0[0m
+[40;33;01m/dev/fb0[0m      [40;33;01m/dev/loop0[0m  [40;33;01m/dev/ram0[0m   [40;33;01m/dev/sg0[0m   [40;33;01m/dev/tty20[0m  [40;33;01m/dev/tty50[0m  [40;33;01m/dev/usbmon0[0m
+[40;33;01m/dev/hidraw0[0m  [40;33;01m/dev/lp0[0m    [40;33;01m/dev/ram10[0m  [40;33;01m/dev/tty0[0m  [40;33;01m/dev/tty30[0m  [40;33;01m/dev/tty60[0m
+[m[0m[40;33;01m/dev/dm-1[0m     [40;33;01m/dev/lp1[0m   [40;33;01m/dev/ram11[0m  [40;33;01m/dev/tty11[0m  [40;33;01m/dev/tty41[0m  [40;33;01m/dev/ttyS1[0m    [40;33;01m/dev/vcsa1[0m
+[40;33;01m/dev/hidraw1[0m  [40;33;01m/dev/ptp1[0m  [40;33;01m/dev/sda1[0m   [40;33;01m/dev/tty21[0m  [40;33;01m/dev/tty51[0m  [40;33;01m/dev/usbmon1[0m
+[40;33;01m/dev/loop1[0m    [40;33;01m/dev/ram1[0m  [40;33;01m/dev/tty1[0m   [40;33;01m/dev/tty31[0m  [40;33;01m/dev/tty61[0m  [40;33;01m/dev/vcs1[0m
+[m[0m[40;33;01m/dev/hidraw2[0m  [40;33;01m/dev/ram12[0m  [40;33;01m/dev/tty12[0m  [40;33;01m/dev/tty32[0m  [40;33;01m/dev/tty62[0m    [40;33;01m/dev/vcs2[0m
+[40;33;01m/dev/loop2[0m    [40;33;01m/dev/ram2[0m   [40;33;01m/dev/tty2[0m   [40;33;01m/dev/tty42[0m  [40;33;01m/dev/ttyS2[0m    [40;33;01m/dev/vcsa2[0m
+[40;33;01m/dev/lp2[0m      [40;33;01m/dev/sda2[0m   [40;33;01m/dev/tty22[0m  [40;33;01m/dev/tty52[0m  [40;33;01m/dev/usbmon2[0m
+[m[0m[40;33;01m/dev/loop3[0m  [40;33;01m/dev/ram13[0m  [40;33;01m/dev/tty13[0m  [40;33;01m/dev/tty3[0m   [40;33;01m/dev/tty43[0m  [40;33;01m/dev/tty63[0m  [40;33;01m/dev/vcs3[0m
+[40;33;01m/dev/lp3[0m    [40;33;01m/dev/ram3[0m   [40;33;01m/dev/tty23[0m  [40;33;01m/dev/tty33[0m  [40;33;01m/dev/tty53[0m  [40;33;01m/dev/ttyS3[0m  [40;33;01m/dev/vcsa3[0m
+[m]0;rwalt267@csitrd:~[rwalt267@csitrd ~]$ exit
+
+Script done on Mon 17 Feb 2020 09:02:46 PM EST
