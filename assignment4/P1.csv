@@ -1,0 +1,7 @@
+Id,Name,Attack,Defense,HP,Sp. Attack,Sp. Defense,Speed
+1,Bulbasaur,49,49,45,65,65,45
+2,Ivysaur,62,63,60,80,80,60
+3,Venusaur,82,83,80,100,100,80
+4,Charmander,52,43,39,60,50,65
+5,Charmeleon,64,58,58,80,65,80
+
